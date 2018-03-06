@@ -1,5 +1,5 @@
 # Status
-In developement . DO NOT USE THIS SCRIPT IF YOU DON'T EDIT IT FIRST ! **See [Additional information](#Additionalinformation).**  
+In developement . DO NOT USE THIS SCRIPT IF YOU DON'T EDIT IT FIRST ! **See [Additional information](#Additional_information).**  
 [OK] Home, Reload, Back button  
 [OK] Selection character + skills during fight (Only for MC)  
 [OK] Resume, Retreat, Cancel button  
