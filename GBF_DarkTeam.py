@@ -3,7 +3,6 @@ Autor: Nexius74
 Version: 1.0.0
 Details: Usage of keyboard input to manipulate GBF. Cause im a lazy ass that don't wanna move his hand over mouse
 Update: 06.03.2018
-Line 340 [BUG] When using counter multiple time within a same function, second while loop doesn't start
 """
 import msvcrt
 from colorama import Fore
@@ -524,7 +523,7 @@ def __exit():
 """End break the script"""
 
 # Start the program
-print("Welcome to GBF-hotkey Type-Dark !")
+print("Welcome to GBF-hotkey !")
 print(
 """
 Autor: Nexius74
