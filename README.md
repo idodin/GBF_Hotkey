@@ -1,5 +1,5 @@
 # Status
-In developement . DO NOT USE THIS SCRIPT IF YOU DON'T EDIT IT FIRST ! **See [Additional information](#additional-information).**  
+In developement . **DO NOT USE THIS SCRIPT IF YOU DON'T EDIT IT FIRST ! See [Additional information](#additional-information).**  
 [OK] Home, Reload, Back button  
 [OK] Selection character + skills during fight (Only for MC)  
 [OK] Resume, Retreat, Cancel button  
@@ -12,6 +12,29 @@ This is a little script write in python 3 (3.5.3) that bound keyboard's keys to 
 # Requirement
  - Python 3 Enivronnement  
  - Pywinauto, pyautogui, colorama installed
+ 
+ # How it works
+ Launch the script and just press the key you want.  
+ - Attack -> 1  
+ - Next -> 2  
+ - Ok -> 3  
+ - Exit script -> 9  
+ - Home -> h  
+ - Reload -> g  
+ - Back -> f  
+ - Party menu -> $  
+ - Upgrade menu -> -  
+ - Cancel -> x  
+ - Retreat -> c  
+ - Resume -> v  
+ - *Selection character + skill in fight -> o
+
+*This option has hotkeys that are rebound just to select skills. You select your character, skills, then press back:  
+- Skill 1 -> 1  
+- Skill 2 -> 2  
+- Skill 3 -> 3  
+- Skill 4 -> 4  
+- Back from skill menu -> *  
 
 # Additional information
 1. This script was write for my actual team (MC(Weapon-master), DJeanne, Lyria, Vira. All skybound). **THIS IS NOT GONNA WORK WITH A DIFFERENT TEAM !!!!** If you want to use this script with your own team, feel free to edit meshes + source code.   
@@ -22,4 +45,5 @@ This is a little script write in python 3 (3.5.3) that bound keyboard's keys to 
 6.**Im new to python and even more to programming. Don't expect something well made, stable, dynamic or w/o bugs.**  
 
 # Known bug 
-[FIXED] Quest and cancel button wasn't detect by pyautogui. When using counter multiple time within a same function, second while loop doesn't work.
+[FIXED] Quest and cancel button wasn't detect by pyautogui. When using counter multiple time within a same function, second while loop doesn't work.  
+[BUG] No control over user input which can result in crash if not following correctly the instruction or miss press a key.
